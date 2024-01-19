@@ -1,0 +1,80 @@
+body{
+    background-color: #b0b8bf
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* Esercizio 1  selezione del <h1> */
+.jumbotron h1 {
+    color: rgb(43, 0, 255);
+}
+
+/* Esercizio 2 i figli dell'elemento navbar */
+nav * {
+    color: rgb(0, 255, 47);
+}
+
+/* Esercizio 3 il link "Continua a leggere" */
+.jumbotron p a {
+    color: rgb(72, 0, 255);
+}
+
+/* Esercizio 4 il primo blog post */
+.blog-post:first-of-type {
+    background-color: rgb(255, 196, 0);
+}
+
+/* Esercizio 5  primo per tipo (hr)*/
+.blog-post hr:first-of-type {
+    border-color: rgb(255, 81, 0);
+}
+
+/* Esercizio 6 link pari della navbar */
+nav span:nth-of-type(even) {
+    color: rgb(13, 162, 236);
+}
+
+/* Esercizio 7 selezionamo il primo gruppo di <li> */
+.blog-sidebar div:nth-of-type(2) ol li:nth-of-type(even) a {
+    color: rgb(0, 255, 17);
+}
+
+/* Esercizio 8 autore secondo post */
+.blog-post:nth-of-type(2) .blog-post-meta a {
+    color: red;
+}
+
+/* Esercizio 9 seleziono il secondo gruppo di <li> */
+.blog-post:nth-of-type(3) ul li:nth-of-type(2) {
+    color: rgb(128, 0, 255);
+}
+
+/* Esercizio 10  link torna su*/
+body>a:last-of-type {
+    color: rgb(23, 12, 138);
+}
+
+/* Esercizio 11  bottone nuovi */
+nav.blog-pagination a:last-of-type {
+    background-color: rgb(142, 80, 213);
+}
+
+/* Esercizio di selezione del secondo footer 12 */
+
+footer a:nth-of-type(2) {
+    color: rgb(72, 0, 255);
+}
